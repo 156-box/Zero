@@ -130,6 +130,35 @@ body {
   color: var(--bg-main);
 }
 
+/* ========================================================
+LEADERSHIP / MISSION STATEMENT (NEW)
+==========================================================*/
+.leadership {
+  background-color: var(--bg-main);
+  padding: 120px 10%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.leadership-inner {
+  max-width: 900px;
+  text-align: left;
+}
+
+.leadership-inner h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.leadership-inner p {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 24px;
+
+}
+
 /* =========================================================
    SCROLL SECTIONS
 ========================================================= */
@@ -194,6 +223,12 @@ body {
 
   .hero-overlay h1 {
     font-size: 2.2rem;
+  }
+  .leadership {
+    padding: 90px 8%;
+  }
+  .leadership-inner h2 {
+    font-size: 1.6rem;
   }
 }
 /* =========================================================
