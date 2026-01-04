@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Volunteer | WH R Lane</title>
+
+        <!--Shared site styles-->
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+
+    <body>
+        <!-- NAV (add a Volunteer link)-->
+         <nav class="=nav">
+            <div class="nav-logo">WH R Lane</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+         </nav>
+
+         <!--Page Wrapper-->
+         <main class="page">
+            <section class="card">
+                <h1 class="page-title">Volunteer</h1>
+                <p class="page-subtitle">
+                    Join the team. Fill out and we will follow up.
+                </p>
+                <!--
+                important: website is static ; this form will not
+                save anywhere, this is a place holder for now, later 
+                gone head and get google forms-->
+
+                <form class="form" action="#" method="POST">
+                    <div class="form-grid">
+
+                        <div class="form-field">
+                            <label for="fullName">Full Name</label>
+                            <input id="fullName" name="fullName" type="text" autocomplete="name" required />
+                        </div>
+                        <div class="form-field">
+                            <label for="dob">Date of Birth</label>
+                            <input id="dob" name="dob" type="date" autocomplete="bday" required />
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">Phone Number</label>
+                            <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+                        </div>
+                        <div class="form-field">
+                            <label for="zip">Zip Code</label>
+                            <input id="zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" required />
+                        </div>
+
+                        <button type="submit" class="btn-primary">Submit</button>
+
+                        <!-- When wired up we will add
+                         -form action url
+                         - success message
+                         -basic spam protection (honey pot) -->
+
+                    </div>
+                </form>
+            </section>
+
+            <section class="card">
+                <h2>Meet WH R. Lane</h2>
+                <p class="bio">
+                    <!-- this is where the bio goes-->
+                </p>
+            </section>
+         </main>
+         <footer class="footer">
+            <p> 2026 WH R LANE FOR CONGRESS</p>
+         </footer>
+    </body>
+</html>

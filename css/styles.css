@@ -159,6 +159,76 @@ LEADERSHIP / MISSION STATEMENT (NEW)
 
 }
 
+/* ============================================================
+V O L U N T E E R   P A G E
+===============================================================*/
+.page {
+  padding-top: 120px;          /* clears fixed nav ?? */
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 80px;
+  display: grid;
+  gap: 28px;
+}
+
+.card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  padding: 36px;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.page-subtitle {
+  color: var(--text-muted);
+  margin-bottom: 26px;
+}
+
+/*=================================================================
+NEW: FORM STYLES ( VOLUNTEER PAGE)
+============================================================*/
+.form {
+  display: grid;
+  gap: 18px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 colums on desktop */
+  gap: 18px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 12px 14px;
+  background: var(--bg-main);
+  border: 1px solid var(--bg-main);
+  color: var(--text-primary);
+  outline: none;
+}
+
+.form-field input:focus {
+  border-color: var(--text-muted);
+}
+
+/* Meet Section bio */
+
+.bio {
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-top: 12px;
+}
+
 /* =========================================================
    SCROLL SECTIONS
 ========================================================= */
@@ -229,6 +299,17 @@ LEADERSHIP / MISSION STATEMENT (NEW)
   }
   .leadership-inner h2 {
     font-size: 1.6rem;
+  }
+  /* Volunteer page mobile adjustments */
+  .page {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .card {
+    padding: 26px;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
   }
 }
 /* =========================================================
