@@ -111,6 +111,10 @@ body {
   color: var(--text-muted);
   margin-bottom: 40px;
 }
+/* Smaller hero for inteernal pages like the volunteer pg */
+.hero-small {
+  height: 70vh;
+}
 
 /* =========================================================
    PRIMARY BUTTON
