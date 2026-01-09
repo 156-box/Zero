@@ -4,8 +4,8 @@
    - Prevents layout bugs
 ========================================================= */
 body {
-  background: black;
-  color: white;
+  background: black;      /* this can be deleted, if something breaks look into thhis first */
+  color: white;        /*this can be deleted */
 }
 
 * {
@@ -163,6 +163,67 @@ LEADERSHIP / MISSION STATEMENT (NEW)
 
 }
 
+/*===================================================================
+N E W   I S S U E   P A G E 
+- safe additions 
+-dont overide existing code
+====================================================================*/
+.issues-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.issue-card {
+  background: var(--bg-main);
+  border: 1px solid var(--border-subtle);
+  padding: 18px;
+}
+
+.issues-card h3 {
+  margin-bottom: 10px;
+}
+
+.issuess-list {
+  margin-top: 14px;
+  padding-left: 18px;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+/*====================================================================
+
+I S S U E S   R E C E I P T S
+-MOBILE FRIENDLY
+=====================================================================*/
+.receipts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.receipt-card {
+  background: var(--bg-main);
+  border: 1px solid var(--border-subtle);
+  padding: 18px;
+}
+
+.receipt-card h3 {
+  margin-bottom: 10px;
+}
+
+.receipt-list {
+  margin-left: 18px;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+.receipt-list strong {
+  color: var(--text-primary);
+}
+
 /* ============================================================
 V O L U N T E E R   P A G E
 ===============================================================*/
@@ -288,6 +349,9 @@ NEW: FORM STYLES ( VOLUNTEER PAGE)
   .scroll-section,
   .scroll-section.reverse {
     flex-direction: column;
+    .issues-grid {
+      grid-template-columns: 1fr;
+    }
   }
 
   .scroll-section img,
@@ -314,6 +378,21 @@ NEW: FORM STYLES ( VOLUNTEER PAGE)
   }
   .form-grid {
     grid-template-columns: 1fr;
+  }
+  /* Issues grid becomes 1 column */
+
+  .issues-grid {
+    grid-template-columns: 1fr;
+  }
+  /* scroll sections stack on mobile */
+  .scroll-section,
+  .scroll-section.reverse {
+    flex-direction: column;
+  }
+  
+  .scroll-section img,
+  .scroll-text {
+    width: 100%;
   }
 }
 /* =========================================================
