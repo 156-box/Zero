@@ -412,6 +412,11 @@ NEW: FORM STYLES ( VOLUNTEER PAGE)
     z-index: 999;
     backdrop-filter: blur(10px);
   }
+  .floating-disclaimer h3 {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    letter-spacing: 0.3px;
+  }
   .floating-disclaimer p {
     font-size: 0.85rem;
     line-height: 1.6;
