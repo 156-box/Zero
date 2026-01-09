@@ -401,6 +401,9 @@ NEW: FORM STYLES ( VOLUNTEER PAGE)
     width: 100%;
   }
 }
+.floating-disclaimer {
+  outline: 2px solid red;
+}
 
 /*==================================================================
 FLOATING GRASSROOTS DISCLAIMER 
