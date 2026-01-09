@@ -400,29 +400,34 @@ NEW: FORM STYLES ( VOLUNTEER PAGE)
   .scroll-text {
     width: 100%;
   }
-  .floating-disclaimer {
-    position: fixed;
-    right: 24px;
-    bottom: 24px;
-    width: 320;
-    max-width: calc(100vw - 48px);
-    background: rgba(0, 0, 0, 0.80);
-    border: 1px solid var(--border-subtle);
-    padding: 16px 16px 14px;
-    z-index: 999;
-    backdrop-filter: blur(10px);
-  }
-  .floating-disclaimer h3 {
-    font-size: 0.95rem;
-    margin-bottom: 8px;
-    letter-spacing: 0.3px;
-  }
-  .floating-disclaimer p {
-    font-size: 0.85rem;
-    line-height: 1.6;
-    color: var(--text-muted);
-  }
 }
+
+/*==================================================================
+FLOATING GRASSROOTS DISCLAIMER 
+===================================================================*/
+.floating-disclaimer {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 320px;
+  max-width: calc(100vw - 48px);
+  background: rgba(0, 0, 0, 0.80);
+  border: 1px solid var(--border-subtle);
+  padding: 16px 16px 14px;
+  z-index: 999;
+  backdrop-filter: blur(10px);
+}
+.floating-disclaimer h3 {
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  letter-spacing: 0.3px;
+}
+.floating-disclaimer p {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
 /* =========================================================
    SCROLL FADE-IN ANIMATION
 ========================================================= */
