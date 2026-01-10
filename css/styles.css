@@ -349,15 +349,6 @@ NEW: FORM STYLES ( VOLUNTEER PAGE)
   .scroll-section,
   .scroll-section.reverse {
     flex-direction: column;
-    .issues-grid {
-      grid-template-columns: 1fr;
-    }
-    .floating-disclaimer {
-      left: 16px;
-      right: 16px;
-      bottom: 16px;
-      width: auto;
-    }
   }
 
   .scroll-section img,
@@ -401,36 +392,6 @@ NEW: FORM STYLES ( VOLUNTEER PAGE)
     width: 100%;
   }
 }
-.floating-disclaimer {
-  outline: 2px solid red;
-}
-
-/*==================================================================
-FLOATING GRASSROOTS DISCLAIMER 
-===================================================================*/
-.floating-disclaimer {
-  position: fixed;
-  right: 24px;
-  bottom: 24px;
-  width: 320px;
-  max-width: calc(100vw - 48px);
-  background: rgba(0, 0, 0, 0.80);
-  border: 1px solid var(--border-subtle);
-  padding: 16px 16px 14px;
-  z-index: 999;
-  backdrop-filter: blur(10px);
-}
-.floating-disclaimer h3 {
-  font-size: 0.95rem;
-  margin-bottom: 8px;
-  letter-spacing: 0.3px;
-}
-.floating-disclaimer p {
-  font-size: 0.85rem;
-  line-height: 1.6;
-  color: var(--text-muted);
-}
-
 /* =========================================================
    SCROLL FADE-IN ANIMATION
 ========================================================= */
