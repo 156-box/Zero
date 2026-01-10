@@ -393,13 +393,6 @@ NEW: FORM STYLES ( VOLUNTEER PAGE)
   }
 }
 
-/* Donate page: keep the disclaimer box centered + readable*/
-.donate-disclaimer {
-  max-width: 800px;
-  margin: 400px;
-  text-align: left;
-}
-
 /* =========================================================
    SCROLL FADE-IN ANIMATION
 ========================================================= */
